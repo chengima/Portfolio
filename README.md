@@ -4,7 +4,7 @@ Portfolio is a personal website where you can learn more about me
 
 ## How to run the project
 
-To view the site click [HERE](https://chengima.github.io/)
+To view the website please click [HERE](https://chengima.github.io/)
 
 ## Completion Status
 
