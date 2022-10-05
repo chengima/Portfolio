@@ -45,12 +45,12 @@ h3 {
     text-decoration: underline;
     }
 
-#company-name { 
+.company-name { 
     height:2px;
     text-decoration:underline;
     }
 
-#job-title {
+.job-title {
     height: 5px;
     margin-top: -10px;
     }
