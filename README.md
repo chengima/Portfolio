@@ -1,2 +1,2 @@
 # Portfolio
-## about this project
+## About this project
