@@ -1,59 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Resume</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="resume">
+<div id="header">
+    <p id="full_name">Cheng-I (Christine) Ma</p>
+</div>
+    <div class="left">
+    </div>
+    <div class="right">
+        <h3>EDUCATION</h3>
+        <p>App Academy</p>
+        <ul>
+            <li>Ruby</li>
+            <li>Ruby on Rails</li>
+            <li>Javascript</li>
+            <li>React & Redux</li>
+            <li>SQL</li>
+            <li>JQuery</li>
+        </ul>
+        <p>Rutgers University</p>
+        <ul>
+            <li>Major: B.A. in Communication</li>
+            <li>Major: B.A. in Economics</li>
+        </ul>
 
-<h1>Cheng-I (Christine) Ma</h1>
-<h3>Education</h3>
-<p>App Academy</p>
-<li>Ruby</li>
-<li>Ruby on Rails</li>
-<li>Javascript</li>
-<li>React & Redux</li>
-<li>SQL</li>
-<li>JQuery</li>
-<p>Rutgers University</p>
-<li>Major: B.A. in Communication</li>
-<li>Major: B.A. in Economics</li>
 
-<h3>Experience</h3>
-<p>Shift Technologies</p>
-<p>Los Angeles, CA</p>
-<p>May 2021 – Present</p>
-<p>Software Engineer</p>
-<li>Build and maintain microservices, designing and implementing APIs, managing cross service integration testing and creating robust, fault tolerant services</li>
-<li>Design and document new features, improvements, and infrastructure</li>
-<li>Implement robust distributed systems</li>
-<li>Test, deploy, and monitor changes on test and production environments</li>
-<li>Participate in code reviews on GitHub</li>
-<p>Sema4</p>
-<p>New York, NY</p>
-<p>Jun. 2019 – May 2021</p>
-<p>Production Support Engineer</p>
-<li>Wrote and deployed internal software in React and Ruby on Rails to automate key processes or platforms
-    where customers success team can send inquiries and reviews</li>
-<li>Analyzed the available data, diagnosed the root cause, and developed a solution quickly when the
-    technical issues with the product arise</li>
-<li>Worked with varying stakeholders to deliver many data sets in the application</li>
-<p>App Academy</p>
-<p>New York, NY</p>
-<p>Sep. 2018 – Jun. 2019</p>
-<p>Programming Instructor</p>
-<li>Instructed course Intermediate Level JavaScript and held office hours for one-on-one code review and
-    pair coding</li>
-<li>Coached students on engineering project development</li>
-<li>Mentored students on academic program application and career planning</li>
-<h3>Skills</h3>
-<li>Programming Languages: JavaScript | Python | Ruby | HTML5 | CSS3 | SQL</li>
-<li>Technologies: React.js | Redux | Ruby on Rails | jQuery | Git | gRPC | AWS S3 | WebPack | Docker | Kubernetes</li>
-<li>Database: PostgreSQL | SQLite3 | MongoDB</li>
-<h3>ACTIVITIES</h3>
-<p>Member of Alpha Kappa Delta Phi Sorority, Inc.</p>
-<li>VP of External Affair - liaison between other organizations</li>
-<li>VP of Community Service - organized community service events and raised over $1500 in 2008 for Susan
-    G. Komen foundation</li>
-<li>Publicity Chair - promoted sorority activities through social media and tabling efforts</li>
+        <h3>EXPERIENCE</h3>
+        <h4 id="company-name">Shift Technologies</h4>
+        <div class="wrapper">
+            <p class="block">May 2021 – Present</p>
+            <p class="block">Los Angeles, CA</p>
+        </div>
+
+        <p id="job-title"><strong>Software Engineer</strong></p>
+        <ul>
+            <li>Build and maintain microservices, designing and implementing APIs, managing cross service integration testing and creating robust, fault tolerant services</li>
+            <li>Design and document new features, improvements, and infrastructure</li>
+            <li>Implement robust distributed systems</li>
+            <li>Test, deploy, and monitor changes on test and production environments</li>
+            <li>Participate in code reviews on GitHub</li>
+        </ul>
+        <h4 id="company-name">Sema4</h4>
+        <div class="wrapper">
+            <p class="block">Jun. 2019 – May 2021</p>
+            <p class="block">New York, NY</p>
+        </div>
+        <p id="job-title"><strong>Production Support Engineer</strong></p>
+        <ul>
+            <li>Wrote and deployed internal software in React and Ruby on Rails to automate key processes or platforms
+                where customers success team can send inquiries and reviews</li>
+            <li>Analyzed the available data, diagnosed the root cause, and developed a solution quickly when the
+                technical issues with the product arise</li>
+            <li>Worked with varying stakeholders to deliver many data sets in the application</li>
+        </ul>
+        <h4 id="company-name">App Academy</h4>
+        <div class="wrapper">
+            <p class="block">Sep. 2018 – Jun. 2019</p>
+            <p class="block">New York, NY</p>
+        </div>
+        <p id="job-title"><strong>Programming Instructor</strong></p>
+        <ul>
+            <li>Instructed course Intermediate Level JavaScript and held office hours for one-on-one code review and
+                pair coding</li>
+            <li>Coached students on engineering project development</li>
+            <li>Mentored students on academic program application and career planning</li>
+        </ul>
+        
+        <h3>SKILLS</h3>
+        <ul>
+            <li>Programming Languages: JavaScript | Python | Ruby | HTML5 | CSS3 | SQL</li>
+            <li>Technologies: React.js | Redux | Ruby on Rails | jQuery | Git | gRPC | AWS S3 | WebPack | Docker | Kubernetes</li>
+            <li>Database: PostgreSQL | SQLite3 | MongoDB</li>
+        </ul>
+        <h3>ACTIVITIES</h3>
+        <p>Member of Alpha Kappa Delta Phi Sorority, Inc.</p>
+        <ul>
+            <li>VP of External Affair - liaison between other organizations</li>
+            <li>VP of Community Service - organized community service events and raised over $1500 in 2008 for Susan
+                G. Komen foundation</li>
+            <li>Publicity Chair - promoted sorority activities through social media and tabling efforts</li>
+        </ul>
+</div>
 </body>
 </html>
